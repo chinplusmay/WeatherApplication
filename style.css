@@ -1,0 +1,212 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Full height for body and html */
+html, body {
+    width: 100%;
+    height: 100px
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+
+
+
+
+
+/* Header styling */ 
+.header {
+    background: beige;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the navbar inside the header */
+    align-items: center; /* Vertically center the navbar */
+}
+
+.navbar{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: 200;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar img{
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 1%;
+}
+
+.searchContainer{
+    display: flex;
+    padding-right: 30px;
+}
+
+.searchInput{
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 6px;
+    border: 2px solid black;
+    margin-right: 5px;
+    height: 50px;
+    font-size:17px ;
+    cursor:pointer;
+}
+.searchInput :hover{
+    background-color: aquamarine;
+}
+
+.searchBtn {
+    width: 60px; 
+    height: 60px; 
+    border: none;
+    margin-left: -70px;
+    background-color: transparent; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.searchBtn img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; /* Prevent the image from stretching, maintain aspect ratio */
+}
+
+
+.navbar ul{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px; /* Add space between the logo and text */
+    cursor: pointer;
+}
+
+/* .cardTitles{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.cardTitles h2:first-of-type{
+    margin-right: 20px;
+}
+
+.cardTitles h2:nth-of-type(2){
+    margin-left: 846px;
+} */
+
+
+
+
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+.card {
+    flex: 1;
+    min-width: 300px;
+    background: linear-gradient(to bottom, #6a93cb, #a4b0be);
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.weather img{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 200px;
+    height: 200px;
+}
+.temp{
+    font-size: 70px;
+    font-weight: 900;
+    padding-left: 121px;
+}
+.city{
+    font-size: 60px;
+    font-weight: 800;
+    padding-left: 87px;
+}
+
+.details{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.col1 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 17px;
+}
+.col2 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+}
+
+.windspeed{
+    margin-left: 14px;
+}
+.humidity{
+    margin-left: 39px;
+}
+
+.hm{
+    margin-left: 21px;
+}
+
+
+.error-container{
+    height: 500px;
+    width: 400px;
+    margin-left: -290px;
+    /* background-color: lightblue; */
+}
+
+.error {
+    color: #ff3333;
+    background-color: rgba(255, 51, 51, 0.1);
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="left">
+                <img src="assets/weatheranime.jpg" alt="">
+                <ul class="navList">
+                    <li <a href="#">Home</li>
+                    <li <a href="#">Info</li>
+                </ul>
+            </div>
+            <div id="searchContainer" class="searchContainer">
+                <input type="text" spellcheck="false" placeholder="Enter Location" id="searchInput" class="searchInput" value="">
+                <button id="searchBtn" class="searchBtn"> <img src="assets/find-eye-logo-icon-design-vector-22644773.jpg" alt=""></button>
+            </div>
+        </nav>
+    </div>
+
+    <div id="error-container">
+        heyy
+    </div>
+
+    <!-- <div class="cardTitles">
+        <h2>Current Location</h2>
+        <h2>Searched Location</h2>
+    </div> -->
+
+
+    <div id="mainContainer" class="mainContainer">
+        <div id="card1" class="card">
+            <h2>Current Location</h2>
+            <div id="currentWeatherContent" class="weather">
+                <div class="loading">Getting your location...</div> 
+            </div>
+        </div>
+        <div id="card2" class="card">
+            <h2>Search Results</h2>
+            <div id="searchedWeatherContent" class="weather">
+                <div class="loading">Search for a location to see weather...</div>
+                <!-- <img src="assets/cloudy.png" alt="cloudy">
+                <h1 id="temp" class="temp">13°C</h1>
+                <h2 id="city" class="city">Mumbai</h2>
+                <div class="details">
+                    <div id="col1" class="col1">
+                        <img src="assets/humidity.png" alt="humidity">
+                        <p id="humidity" class="humidity">50%</p>
+                        <p class="hm">Humidity</p>
+                    </div>
+                    <div id="col2" class="col2">
+                        <img src="assets/windspeed.png" alt="windspeed">
+                        <p id="windspeed" class="windspeed">50 km/h</p>
+                        <p>Wind Speed</p>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>
